@@ -11,7 +11,6 @@ public class Main {
         double six =  6.22;
         char seven = 'c';
         boolean eight = true;
-
         System.out.println(one + two);//byte + short
 
         System.out.println(three % six);// int % double
@@ -32,7 +31,7 @@ public class Main {
 
         System.out.println(clear);
 
-        Plus(one,two);
+        Pluse(one,two);
 
         Remain(three,six);
 
@@ -45,7 +44,7 @@ public class Main {
         Biwiise(2);
         }
 
-    public static void Plus(byte a,short b){
+    public static void Pluse(byte a,short b){
         System.out.println(a + b);
     }
     public static void Remain(int a,double b){
